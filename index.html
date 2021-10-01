@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/netflix-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!-- responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+
+    <title>Netflix - projeto</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Catálogo</a>
+                <a href="#">Clássicos</a>
+                <a href="#">Musicais premiados</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="principal">
+            <div class="container">
+
+                <h3 class="title">HADES<span class="red-part">TOWN</span></h3>
+                <p class="description">Hadestown intertwines two mythic tales—that of young dreamers Orpheus and
+                    Eurydice, and that of King Hades and his wife Persephone—as it invites you on a hell-raising journey
+                    to the underworld and back.</p>
+
+                <div class="all-buttons">
+                    <button role="button" class="button">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="button" onclick="mudarEstilo('minhaDiv')">
+                        <i class="fas fa-info-circle"></i>
+                        Mais informações
+                    </button>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div id="minhaDiv" class="hidden-div" style="display: none;">
+            Mitchell’s beguiling melodies and Chavkin’s poetic imagination pit industry against nature, doubt against faith, and fear against love. Performed by a vibrant ensemble of actors, dancers and singers, Hadestown is a haunting and hopeful theatrical experience that grabs you and never lets go.
+        </div>
+
+
+    </main>
+
+    <div class="carousel-musicals">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-musical" src="./img/mini-poster1.jpg" alt="Poster do musical Waitress">
+            </div>
+            <div class="item">
+                <img class="box-musical" src="./img/mini-poster2.jpg" alt="Poster do musical The Great Comet">
+            </div>
+            <div class="item">
+                <img class="box-musical" src="./img/mini-poster3.jpg" alt="Poster do musical The Great Comet">
+            </div>
+            <div class="item">
+                <img class="box-musical" src="./img/mini-poster4.jpg" alt="Poster do musical The Great Comet">
+            </div>
+            <div class="item">
+                <img class="box-musical" src="./img/mini-poster5.jpg" alt="Poster do musical The Great Comet">
+            </div>
+            <div class="item">
+                <img class="box-musical" src="./img/mini-poster6.jpg" alt="Poster do musical The Great Comet">
+            </div>
+            <div class="item">
+                <img class="box-musical" src="./img/mini-poster7.jpg" alt="Poster do musical The Great Comet">
+            </div>
+            <div class="item">
+                <img class="box-musical" src="./img/mini-poster8.jpg" alt="Poster do musical The Great Comet">
+            </div>
+            <div class="item">
+                <img class="box-musical" src="./img/mini-poster9.jpg" alt="Poster do musical The Great Comet">
+            </div>
+            <div class="item">
+                <img class="box-musical" src="./img/mini-poster10.jpg" alt="Poster do musical The Great Comet">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/26b7f9eff8.js" crossorigin="anonymous"></script>
+
+    <!--owl-->
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+
+    <script src="js/setup.js"></script>
+</body>
+
+</html>
